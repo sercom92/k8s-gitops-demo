@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: webapp-config
 data:
-  APP_ENV: "base"
-  LOG_LEVEL: "info"
-  FEATURE_FLAG: "disabled"
+  APP_ENV: "production"
+  LOG_LEVEL: "warn"
+  FEATURE_FLAG: "enabled"
